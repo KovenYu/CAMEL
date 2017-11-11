@@ -12,6 +12,8 @@ In the folder ./Feature is the code for feature extraction.
 Here we provide the pre-trained JSTL model (without fine-tune or domain guided dropout) to extract features for different datasets apart from the test ones.
 Note that the model was pre-trained using the full training set [4], i.e., VIPeR, CUHK01, CUHK03, PRID, 3DPeS, i-LIDS and Shinpuhkan.
 
+Our implementation is based on matconvnet: https://github.com/vlfeat/matconvnet
+
 # CAMEL
 
 In the folder ./CAMEL is the DEMO code for our linear metric learning model CAMEL.
