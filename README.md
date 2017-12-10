@@ -20,6 +20,7 @@ In the folder ./CAMEL is the DEMO code for our linear metric learning model CAME
 We provide an interface of CAMEL here and the full code is coming soon.
 One can easily use it following main.m.
 See main.m for details.
+Also note that a different MATLAB version may lead to a result that is a little bit different from the result reported in the paper. The reported result was obtained using MATLAB R2014a.
 
 We also prepared a supervised version of CAMEL in main_supervised.m,
 which runs much faster than CAMEL and can be a weak baseline in comparison
