@@ -4,7 +4,7 @@ https://arxiv.org/abs/1708.08062
 
 H.-X. Yu, A. Wu, W.-S. Zheng, "Cross-view Asymmetric Metric Learning for Unsupervised Person Re-identification", In ICCV, 2017.
 
-This page contains the demo code for our model CAMEL and the package to construct the dataset ExMarket.
+This page contains the demo code for our model CAMEL and the package to construct the dataset ExMarket. If you have any problem, please feel free to contact us. My Email address: xKoven@gmail.com
 
 # Feature
 
