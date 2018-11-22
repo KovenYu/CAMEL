@@ -6,6 +6,17 @@ H.-X. Yu, A. Wu, W.-S. Zheng, "Cross-view Asymmetric Metric Learning for Unsuper
 
 This page contains the demo code for our model CAMEL and the package to construct the dataset ExMarket. If you have any problem, please feel free to contact us. My Email address: xKoven@gmail.com
 
+# CAMEL
+
+In the folder ./CAMEL is the DEMO code on the Market-1501 dataset.
+Please see main.m for details.
+
+Also note that a different MATLAB version may lead to a result that is a little bit different from the result reported in the paper, because of several random procedures in the algorithm and during the testing. The reported result (in this demo, 54.5% rank-1 accuracy for Market-1501) was obtained using MATLAB R2014a.
+
+We also prepared a supervised version of CAMEL in main_supervised.m,
+which runs much faster than CAMEL and can be a weak baseline in comparison
+with supervised models.
+
 # Feature
 
 In the folder ./Feature is the code for feature extraction.
@@ -13,19 +24,6 @@ Here we provide the pre-trained JSTL model (without fine-tune or domain guided d
 Note that the model was pre-trained using the full training set [4], i.e., VIPeR, CUHK01, CUHK03, PRID, 3DPeS, i-LIDS and Shinpuhkan.
 
 Our implementation is based on matconvnet: https://github.com/vlfeat/matconvnet
-
-# CAMEL
-
-In the folder ./CAMEL is the DEMO code for our linear metric learning model CAMEL.
-We provide an interface of CAMEL here and the full code is coming soon.
-One can easily use it following main.m.
-See main.m for details.
-
-Also note that a different MATLAB version may lead to a result that is a little bit different from the result reported in the paper, because of several random procedures in the algorithm and during the testing. The reported result (in this demo, 57.3% rank-1 accuracy for CUHK01) was obtained using MATLAB R2014a.
-
-We also prepared a supervised version of CAMEL in main_supervised.m,
-which runs much faster than CAMEL and can be a weak baseline in comparison
-with supervised models.
 
 # ExMarket
 
