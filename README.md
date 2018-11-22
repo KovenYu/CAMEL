@@ -9,7 +9,7 @@ This page contains the demo code for our model CAMEL and the package to construc
 # Results on large popular datasets
 
 Dataset| Rank-1| Rank-5| Rank-10| MAP
--|-
+-|-|-|-|-
 Market-1501| 54.45| 73.10| 79.69| 26.31
 DukeMTMC-reID| 40.26| 57.59| 64.09| 19.81
 
