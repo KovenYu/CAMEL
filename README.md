@@ -6,6 +6,13 @@ H.-X. Yu, A. Wu, W.-S. Zheng, "Cross-view Asymmetric Metric Learning for Unsuper
 
 This page contains the demo code for our model CAMEL and the package to construct the dataset ExMarket. If you have any problem, please feel free to contact us. My Email address: xKoven@gmail.com
 
+# Results on large popular datasets
+
+Dataset| Rank-1| Rank-5| Rank-10| MAP
+-|-
+Market-1501| 54.45| 73.10| 79.69| 26.31
+DukeMTMC-reID| 40.26| 57.59| 64.09| 19.81
+
 # CAMEL
 
 In the folder ./CAMEL is the DEMO code on the Market-1501 dataset.
