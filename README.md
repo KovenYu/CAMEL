@@ -1,10 +1,6 @@
-This is a project page associating to our work on unsupervised metric learning for Re-ID, associating to the paper
-
-https://arxiv.org/abs/1708.08062
-
-H.-X. Yu, A. Wu, W.-S. Zheng, "Cross-view Asymmetric Metric Learning for Unsupervised Person Re-identification", In ICCV, 2017.
-
 This page contains the demo code for our model CAMEL and the package to construct the dataset ExMarket. If you have any problem, please feel free to contact us. My Email address: xKoven@gmail.com
+
+H.-X. Yu, A. Wu, W.-S. Zheng, "[Cross-view Asymmetric Metric Learning for Unsupervised Person Re-identification](http://openaccess.thecvf.com/content_ICCV_2017/papers/Yu_Cross-View_Asymmetric_Metric_ICCV_2017_paper.pdf)", In ICCV, 2017.
 
 # Results on large popular datasets
 
@@ -48,7 +44,7 @@ http://www.liangzheng.org/Project/project_mars.html
 If you use the dataset, please kindly cite [1] and [2] and our paper [3].
 
 We also provide a demo for evaluation in main.m. 
-The example feature ``ExMarket_JSTL64.mat'' was extracted using the JSTL model provided in ./Feature [4]. 
+The example feature ''ExMarket_JSTL64.mat'' was extracted using the JSTL model provided in ./Feature [4]. 
 If you use the feature or the model, please also kindly cite [4].
 
 # Reference
